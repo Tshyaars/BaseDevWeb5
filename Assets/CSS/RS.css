@@ -1,0 +1,33 @@
+@keyframes rotatingColor {
+    25%{
+        transform: rotate(0.25turn);
+        background-color: rgb(255, 218, 9);
+    }
+    50%{
+        transform: rotate(0.5turn);
+        background-color: rgb(255, 196, 0);
+    }
+    75%{
+        transform: rotate(0.75turn);
+        background-color: rgb(255, 166, 1);
+    }
+    100%{
+        transform: rotate(1turn);
+        background-color: rgb(255, 124, 2);
+    }
+}
+
+div{
+    background-color: rgb(255, 230, 5);
+    height: 20vw;
+    width: 20vw;
+    border: 1px solid;
+    position: relative;
+    left: 40vw;
+    top: 5vw;
+    animation-name: rotatingColor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
