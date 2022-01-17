@@ -18,16 +18,10 @@
 }
 
 div{
+    margin: auto;
     background-color: rgb(255, 230, 5);
     height: 20vw;
     width: 20vw;
     border: 1px solid;
-    position: relative;
-    left: 40vw;
-    top: 5vw;
-    animation-name: rotatingColor;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: linear;
+    animation: rotatingColor 4s linear infinite alternate;
 }

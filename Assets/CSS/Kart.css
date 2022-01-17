@@ -1,0 +1,75 @@
+@keyframes race {
+    0%{
+        top: 1vw;
+        left: 1vw;
+    }
+    5%{
+        top: 1vw;
+        left: 26vw;
+    }
+    30%{
+        top: 26vw;
+        left: 26vw;
+    }
+    35%{
+        top: 26vw;
+        left: 13vw;
+    }
+    80%{
+        top: 26vw;
+        left: 1vw;
+    }
+    100%{
+        top: 1vw;
+        left: 1vw;
+    }
+}
+@keyframes rotatingColor {
+    25%{
+        transform: rotate(0.25turn);
+        background-color: rgb(255, 218, 9);
+    }
+    50%{
+        transform: rotate(0.5turn);
+        background-color: rgb(255, 196, 0);
+    }
+    75%{
+        transform: rotate(0.75turn);
+        background-color: rgb(255, 166, 1);
+    }
+    100%{
+        transform: rotate(1turn);
+        background-color: rgb(255, 124, 2);
+    }
+}
+.container{
+    position: relative;
+    border: 1px solid;
+    margin: auto;
+    width: 30vw;
+    height: 30vw;
+}
+.kart{
+    padding: auto;
+    text-align: center;
+    border: 1px solid;
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    animation: race 10s linear infinite,rotatingColor 5s linear infinite;
+}
+#k2{
+    animation-delay: 2s,0s;
+}
+#k3{
+    animation-delay: 3s,0s;
+}
+#k4{
+    animation-delay: 4s,0s;
+}
+#k5{
+    animation-delay: 5s,0s;
+}
+#k6{
+    animation-delay: 8s,0s;
+}

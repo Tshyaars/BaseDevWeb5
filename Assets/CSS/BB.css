@@ -1,6 +1,6 @@
 @keyframes Bounce {
     0%{
-        top: 20vw;
+        top: 0vw;
         left: 0vw;
     }
     19%{
@@ -9,14 +9,14 @@
     20%{
         transform: scale(1.2,0.9);
         left: 7vw;
-        top: 33vw;
+        top: 13vw;
     }
     22%{
         transform: scale(1,1);
     }
     40%{
         left: 14vw;
-        top: 27vw;
+        top: 7vw;
     }
     58%{
         transform: scale(1,1);
@@ -24,23 +24,22 @@
     60%{
         transform: scale(1.1,0.95);
         left: 21vw;
-        top: 33vw;
+        top: 13vw;
     }
     62%{
         transform: scale(1,1);
     }
     80%{
         left: 28vw;
-        top: 30vw;}
+        top: 10vw;}
     100%{
         left: 33vw;
-        top: 33vw;
+        top: 13vw;
     }
 }
 .container{
-    position: relative;
-    left: 30vw;
-    height: 40vw;
+    margin: auto;
+    height: 20vw;
     width: 40vw;
     border: 1px solid;
 }
