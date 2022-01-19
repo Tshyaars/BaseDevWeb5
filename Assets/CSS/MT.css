@@ -1,0 +1,17 @@
+h2{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+.menu{
+    height: 27px;
+    width: 100px;
+    margin: auto;
+    background-color: black;
+    border-radius: 1vw;
+    padding: 5px 0;
+    transition: height 2s;
+}
+.menu:hover{
+    height: 60vw;
+}

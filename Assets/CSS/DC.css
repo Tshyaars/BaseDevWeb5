@@ -1,0 +1,98 @@
+@keyframes rotate {
+    0%{
+        transform:rotate3d(0,1,0,0deg);
+    }
+    25%{
+        transform:rotate3d(0,1,0,90deg);
+    }
+    50%{
+        transform:rotate3d(0,1,0,180deg);
+    }
+    75%{
+        transform:rotate3d(0,1,0,270deg);
+    }
+    100%{
+        transform:rotate3d(0,1,0,360deg);
+    }
+}
+@keyframes rotate2 {
+    0%{
+        transform:translate(160px,70px) rotate3d(1,0,1,90deg);
+    }
+    25%{
+        transform:translate(320px,160px) rotate3d(0,0,1,315deg);
+    }
+    50%{
+        transform:translate(160px,400px) rotate3d(1,0,0,280deg);
+    }
+    75%{
+        transform:translate(0px,190px) rotate3d(0,0,1,360deg);
+    }
+    100%{
+        transform:translate(160px,70px) rotate3d(1,0,1,90deg);
+    }
+}
+main{
+    background-color: rgb(153, 153, 153);
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    border: 20px ridge rgb(69, 69, 69);
+}
+.saturne{
+    transform:translate(100px,20px) rotate3d(0,0,0,80deg);
+    animation-play-state: paused;
+    transform-style: preserve-3d;
+    animation:rotate2 5s linear infinite;
+    width: fit-content;
+}
+.container{
+    animation: rotate 2.5s linear infinite;
+    position: relative;
+    height: 40px;
+    width: 180px;
+    transform-style: preserve-3d;
+}
+.container div{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    transform-style: preserve-3d;
+}
+#elem1{
+    background-color: rgb(255, 123, 0);
+    transform: translate3d(-3px,0,16px) rotate3d(0,1,0,280deg);
+}
+#elem2{
+    background-color: rgb(229, 255, 0);
+    transform: translate3d(-13px,0,59px) rotate3d(0,1,0,320deg);
+}
+#elem3{
+    background-color: rgb(115, 255, 0);
+    transform: translate3d(-2px,0,75px);
+}
+#elem4{
+    background-color: rgb(0, 255, 191);
+    transform: translate3d(10px,0,59px) rotate3d(0,1,0,40deg);
+}
+#elem5{
+    background-color: red;
+    transform: translate3d(0,0,12px) rotate3d(0,1,0,80deg);
+}
+#elem6{
+    background-color: rgb(0, 119, 255);
+    transform: translate3d(5px,-36px,-35px) rotate3d(0,1,0,240deg);
+}
+#elem7{
+    background-color: rgb(140, 0, 255);
+    transform: translate3d(10px,-36px,-68px) rotate3d(0,1,0,200deg);
+}
+#elem8{
+    background-color: rgb(255, 0, 200);
+    transform: translate3d(25px,-36px,-68px) rotate3d(0,1,0,160deg);
+}
+#elem9{
+    background-color: rgb(83, 83, 85);
+    transform: translate3d(28px,-36px,-35px) rotate3d(0,1,0,120deg);
+}
