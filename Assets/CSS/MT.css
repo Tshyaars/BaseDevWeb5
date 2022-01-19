@@ -2,14 +2,14 @@ h2{
     color: #fff;
     text-align: center;
     margin: 0;
+    line-height: 40px;
 }
 .menu{
-    height: 27px;
+    height: 40px;
     width: 100px;
-    margin: auto;
+    margin: 20px auto 0;
     background-color: black;
     border-radius: 1vw;
-    padding: 5px 0;
     transition: height 2s;
 }
 .menu:hover{

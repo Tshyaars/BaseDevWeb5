@@ -20,13 +20,13 @@
         transform:translate(160px,70px) rotate3d(1,0,1,90deg);
     }
     25%{
-        transform:translate(320px,160px) rotate3d(0,0,1,315deg);
+        transform:translate(400px,160px) rotate3d(0,0,1,315deg);
     }
     50%{
-        transform:translate(160px,400px) rotate3d(1,0,0,280deg);
+        transform:translate(160px,360px) rotate3d(1,0,0,280deg);
     }
     75%{
-        transform:translate(0px,190px) rotate3d(0,0,1,360deg);
+        transform:translate(-20px,190px) rotate3d(0,0,1,360deg);
     }
     100%{
         transform:translate(160px,70px) rotate3d(1,0,1,90deg);
@@ -36,7 +36,7 @@ main{
     background-color: rgb(153, 153, 153);
     height: 500px;
     width: 500px;
-    margin: auto;
+    margin: 10px auto 0;
     border: 20px ridge rgb(69, 69, 69);
 }
 .saturne{

@@ -14,7 +14,7 @@
     grid-template: 1fr / 1fr 1fr 1fr;
     height: 10vw;
     width: 32vw;
-    margin: auto;
+    margin: 100px auto 0;
 }
 .ball{
     border: 1px solid;

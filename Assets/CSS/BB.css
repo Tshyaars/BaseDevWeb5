@@ -38,10 +38,12 @@
     }
 }
 .container{
-    margin: auto;
+    background-color: rgb(94, 94, 94);
+    margin: 100px auto 0;
     height: 20vw;
     width: 40vw;
     border: 1px solid;
+    box-shadow: 5px 5px 10px 5px rgba(17, 17, 17, 0.534);
 }
 #ball{
     position: relative;

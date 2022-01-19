@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 600px;
+    padding: 10px auto;
+    background-color: rgb(89, 37, 156);
+}
+header{
+    margin: auto;
+    min-width: 600px;
+    width: 90vw;
+    background-color: rgb(51, 51, 51);
+}
+h1{
+    text-align: center;
+    color: #fff;
+    line-height: 100px;
+}
+nav ul{
+    padding: 10px;
+    text-align: center;
+    list-style-type: none;
+    display: grid;
+    grid: 2fr / repeat(3,1fr);
+    gap: 10px;
+}
+nav a{
+    border: 5px solid rgb(169, 169, 169);
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+}
+nav a:hover{
+    border: 5px double rgb(169, 169, 169);
+}
+
+main{
+    margin: auto;
+    min-width: 600px;
+    width: 90vw;
+}
